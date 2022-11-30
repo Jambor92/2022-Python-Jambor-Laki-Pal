@@ -1,6 +1,6 @@
-import hely_kivalasztas
+from hely_kivalasztas import hely_kivalasztas
 
-def foglalas_rogzites(foglalt_helyek):
+def fog_rogzites(foglalt_helyek):
     
     kilepes=0
     duplikalt=0
