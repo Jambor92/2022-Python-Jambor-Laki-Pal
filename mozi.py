@@ -23,6 +23,7 @@ while (menupont !=3):
         for i in range(napok):
             nap=int (input(f"Kérlek add meg a(z) {i+1}. lekérdezni kívánt napot (1-7):"))
             lekert_napok.append(nap)
+        print()
         for j in lekert_napok:
             napi_foglalas=nap_kivalasztas(f_lista,j)
             napi_foglalasok.append(napi_foglalas)
